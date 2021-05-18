@@ -1,0 +1,156 @@
+* {
+    font-family: Poppins;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    user-select: none;
+}
+
+html, body {
+    background-color: #1e1e1e;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #181C25; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: #3e3e3e; 
+    border-radius: 40px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #3e3e3e; 
+    border-radius: 40px;
+  }
+
+#typing {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    padding-left: 2.5%;
+}
+
+#sentence {
+    font-size: 100px;
+}
+
+.input-cursor {
+    display: inline-block;
+    width: 3px;
+    height: 100px;
+    background-color: white;
+    margin-left: 8px;
+    animation: blink .6s linear infinite alternate;
+}
+
+@keyframes blink {
+    0% {opacity: 1;}
+    40% {opacity: 1;}
+    60% {opacity: 0;}
+    100% {opacity: 0;}
+  }
+
+  #topRow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    gap: 2%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.headerBtn {
+    margin-right: 2.5%;
+    cursor: pointer;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+#item2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    width: 10%;
+    background-color: white;
+    color: #181C25;
+    border-radius: 30px;
+}
+
+#mainBody {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-auto-rows: 20% 30% 50%;
+    grid-auto-columns: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+#mechvibes {
+    width: clamp(20%, 30%, 30%);
+    height: clamp(70%, 90%, 90%);
+    grid-row: 2;
+}
+
+#text {
+    width: 70%;
+    height: 70%;
+    grid-row: 3;
+    text-indent: 75px;
+    grid-column: 1;
+}
+
+#link {
+    color: purple;
+}
+
+#creds {
+    grid-row: 3;
+    grid-column: 1;
+    align-self: flex-end;
+    transform: translateY(-20%);
+    color: #9e9e9e;
+}
+
+#iconHolder {
+    align-self: flex-end;
+    justify-self: flex-end;
+    grid-column: 1;
+    grid-row: 3;
+    width: 10%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    filter: grayscale(100%);
+    opacity: 0.5;
+    gap: 15px;
+}
+
+#discIcon {
+    height: 75px;
+    width: 75px;
+    justify-self: flex-end;
+}
+
+#ghIcon {
+    height: 75px;
+    width: 75px;
+    justify-self: flex-end;
+}
