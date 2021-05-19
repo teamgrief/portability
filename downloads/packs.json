@@ -1,0 +1,76 @@
+{
+    "switches": [
+        {
+            "name" : "Cherry MX Black",
+            "capMaterial" : "ABS",
+            "switchType": "Linear",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Black",
+            "capMaterial" : "PBT",
+            "switchType": "Linear",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Blue",
+            "capMaterial" : "ABS",
+            "switchType": "Clicky",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Blue",
+            "capMaterial" : "PBT",
+            "switchType": "Clicky",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Brown",
+            "capMaterial" : "ABS",
+            "switchType": "Tactile",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Brown",
+            "capMaterial" : "PBT",
+            "switchType": "Tactile",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Red",
+            "capMaterial" : "ABS",
+            "switchType": "Linear",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Cherry MX Red",
+            "capMaterial" : "PBT",
+            "switchType": "Tactile",
+            "brand" : "Cherry"
+        },
+        {
+            "name" : "Everglide Crystal Purple",
+            "capMaterial" : null,
+            "switchType": "Tactile",
+            "brand" : "Everglide"
+        },
+        {
+            "name" : "Everglide Oreo",
+            "capMaterial" : null,
+            "switchType": "Tactile",
+            "brand" : "Everglide"
+        },
+        {
+            "name" : "Novelkey Cream",
+            "capMaterial" : null,
+            "switchType": "Linear",
+            "brand" : "Novelkey"
+        },
+        {
+            "name" : "Topre Purple Hybrid",
+            "capMaterial" : "PBT",
+            "switchType": "Tactile",
+            "brand" : "Topre"
+        }
+    ]
+}
